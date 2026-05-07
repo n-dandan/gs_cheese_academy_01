@@ -53,12 +53,11 @@ header{
     width: 100%;
     align-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header_menu{
     display: flex;
-    justify-content: right;
-    justify-items: right;
 
 }
 
@@ -76,19 +75,17 @@ header{
 }
 
 .header_menu{
-    justify-items: center;
-    align-items: center;
-
+    display: flex;   /* メニュー内の項目を横並びにする */
+    gap: 50px;       /* 各メニュー間の隙間を作る */
+    margin-right: 50px;
 }
 
 
 .header_text{
-    margin-left: 50px ;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 21px;
-    font-weight: 500;
-    
+    font-weight: 500;    
 
 }
 
@@ -206,6 +203,11 @@ header{
 
 
 /* ーーーNEWSーーー */
+
+.sec_news{
+    margin-bottom: 60px;
+}
+
 .div_news_area{
     display: flex;
     margin: 0 auto;
@@ -213,7 +215,7 @@ header{
     justify-items: center;
     align-content: center;
     align-items: center;
-
+    margin-bottom: 60px;
 }
 
 .div_news_title{
@@ -232,28 +234,26 @@ header{
 
 .div_access_article_image{
     width: 100%;
-
 }
 
-.div_access_article_text_area{
-    
 
-}
 
-..article_date{
+.article_date{
     align-items: end;
+    margin-top:30px;
+    margin-bottom: 30px;
 
 }
 
 
 .article_date{
-    font-size: 20px;
     align-items: left;
     text-align: left;
 
 }
 
 .article_text{
+    margin-bottom: 0;
 
 
 }
@@ -377,17 +377,16 @@ header{
     text-align: left;
     width:240px;
     padding-left: 16px;
-    background-color: #FFd61a;
 
 }
 
 .div_form_right{
     justify-content: center;
     justify-items: center;
-    width: 400px;
+    width: 500px;
     border-left: 1px solid #bfbfbf;
 
-    background-color: blue;
+
 
 }
 
@@ -419,6 +418,41 @@ header{
     background-color:white;
 
 }
+
+
+.div_form_check_box_container{
+    border-left: 1px solid #bfbfbf;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.div_form_check_box{
+    display: flex;
+    float: left;
+    justify-content: left;
+    justify-items: left;
+    align-content: center;
+    align-items: center;
+}
+
+.check_box{
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    border-radius: 4px;
+    background-color: #eeeeee;
+    
+
+}
+
+.check_box_text{
+    width: 400px;
+    margin-left: 24px;
+
+
+
+}
+
 
 /* ーーーフッターーーー */
 footer{
