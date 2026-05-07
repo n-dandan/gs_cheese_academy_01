@@ -10,6 +10,11 @@ h2{
     color: #FFd61a;
     margin-top: 60px;
     margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.h2_black_color{
+    color: #222;
 }
 
 h3{
@@ -21,11 +26,32 @@ h3{
 p{
     color: #222;
     font-size: 16px;
+    margin-bottom: 8px;
 }
 
 .p_line_hight{
 
 }
+
+a{
+    color: #111111;
+    text-decoration: none;
+}
+
+#bottom_60{
+    margin-bottom: 60px;
+}
+
+
+#bottom_40{
+    margin-bottom: 40px;
+}
+
+#bottom_30{
+    margin-bottom: 30px;
+}
+
+
 
 
 
@@ -104,7 +130,7 @@ header{
     justify-content: center;
     align-items: center;
     background-image:url(../img/mainbg.png) ;
-    height: 320px;
+    height: 480px;
     width: 100%;
 
 }
@@ -117,6 +143,7 @@ header{
     font-size: 36px;
     font-weight: 600;
     color: white;
+    margin-top: 0px;
 }
 
 .h1_hero_image{
@@ -126,11 +153,12 @@ header{
 }
 
 
+
+
 /* ーーーAboutーーー */
 .sec_about{
     justify-content: center;
     text-align: center;
-    margin-top:60px ;
 
 }
 
@@ -206,9 +234,11 @@ header{
     justify-items: left;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
+.p_course_block_text_area{
+    line-height: 1.8;
+}
 
 
 /* ーーーNEWSーーー */
@@ -268,6 +298,8 @@ header{
 
 
 
+
+
 /* ーーーAccessーーー */
 .sec_access{
     background-color: #fafafa;
@@ -290,6 +322,13 @@ header{
 }
 
 
+.p_access_foreword{
+    margin-top: 0;
+    margin-bottom: 60px;
+
+
+}
+
 .div_access_contents{
     margin-top: 60px;
     margin-bottom: 60px;
@@ -301,7 +340,7 @@ header{
 .map-container {
   position: relative;
   width: 100%;
-  padding-top: 40%; /* 表示比率 */
+  padding-top: 30%; /* 表示比率 */
   overflow: hidden;
 }
 
@@ -342,6 +381,9 @@ header{
     text-align: left;
 
 }
+
+
+
 
 /* ーーーContactーーー */
 .sec_contact{
