@@ -1,0 +1,17 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+}
+
+.header_menu{
+    display: flex;
+
+}
+
+.header_text{
+    margin-left: 50px ;
+}
